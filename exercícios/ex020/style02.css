@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{ 
+    color: rgb(177, 22, 22)
+}
+div > p{
+    color: lightcoral;
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    background-color: rgb(0, 0, 0);
+    width: 70px;
+    color: red;
+}

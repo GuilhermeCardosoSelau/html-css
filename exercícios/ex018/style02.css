@@ -1,0 +1,16 @@
+@font-face{
+    font-family: Royalty;
+    src:url(fontes/Urban\ Blocker\ Solid.ttf) format(truetype);
+}
+
+h1{
+    font-family: Royalty;
+    font-weight: normal;
+    font-size: 3em;
+}
+
+h2{
+    font-family: Royalty;
+    font-weight: normal;
+    font-size: 2em;
+}

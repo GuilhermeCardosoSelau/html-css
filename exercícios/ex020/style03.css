@@ -1,0 +1,82 @@
+@charset "Utf-8";
+
+h1{
+    text-align: center;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ p{ 
+    text-align: justify;
+ }
+
+ul{ 
+    display:inline;
+
+}
+a { 
+    text-decoration: none;
+    font-weight: bold;
+    color: brown;
+
+}
+
+a:visited {
+    color: rgb(110, 20, 20);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#youtube:hover{
+    color: red;
+}
+
+#twitter:hover
+{
+    color:blue
+}
+
+#twitch:hover
+{
+    color: purple;
+} 
+
+#especial::after{
+    color: red;
+    content: " ⇐";
+   font-size:xx-large;
+    text-decoration: solid;
+}
+#especial::before{
+    color: red;
+    content: "⇒ ";
+    font-size: xx-large;
+    text-decoration: solid;
+}
+#twitter::after {
+    content: " ☢";
+}
+#twitter::before {
+    content: "☢ ";
+}
+
+#twitch::after{
+    content: " ❣";
+}
+#twitch::before{
+    content: "❣ ";
+}
+
+#youtube::after{
+    content: " ☺";
+}
+
+#youtube::before{
+    content: "☺ ";
+}
+/* a:active{
+    color: gold;
+}  MUDA A COR AO SEGURAR*/

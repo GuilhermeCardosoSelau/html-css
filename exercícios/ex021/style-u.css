@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+body{ 
+    font: 1em sans-serif;
+    background-color: rgba(255, 163, 178, 0.705);
+}
+
+header > h1{
+    background-color: rgba(255, 217, 0, 0.418);
+
+    width: 220px;
+    height: 45px;
+
+    border: 20px solid rgba(155, 132, 5, 0.151);
+    padding: 10px;
+    margin: 10px auto 20px auto;
+    outline: 5px groove rgba(255, 217, 0, 0.438);
+
+    box-shadow: 5px 2px 6px 1px rgba(0, 0, 0, 0.438);}
+
+main{
+    background-color: rgb(201, 129, 141);
+    width: 800px;
+    height: 650px;
+
+    border: auto solid black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 100px auto 10px auto;
+
+} 
+#inicio{
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto 10px auto;
+}
+
+#inicio > p{   
+    width: 800px;
+    height: 100px;
+    text-align:justify;
+    text-indent: 25px;
+}
+nav{
+
+    background-color: rgb(201, 129, 141);
+    width: 700px;
+    height: auto;
+
+    padding: 10px;
+    margin: 50px auto 10px auto;
+    outline: 2px solid black;
+    border-radius: 5px;
+    
+}
+
+nav > a{
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    padding: 72px;
+}
+
+footer {
+    background-color: rgb(201, 129, 141);
+    width: auto;
+    height: auto;
+
+    border: 5px outset rgba(219, 57, 84, 0.445); 
+    border-radius: 10px;
+    padding: 20px; 
+    margin: 50px 0px 0px 0px;
+    outline: 3px solid rgba(219, 57, 84, 0.521);
+
+}
+
+footer > a{
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
